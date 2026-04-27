@@ -1,11 +1,10 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Java World");
+        Scanner scanner = new Scanner(System.in);
 
-        Person y = new Person("Alex");
-        y.sayHello();
 
-        Cars x = new Cars("Nisan");
-        x.sayModel();
+
     }
 }
